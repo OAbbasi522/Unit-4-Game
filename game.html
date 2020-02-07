@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class = "container">
+<div class = "jumbotron">
+
+    <div class = "container">
+        <h1 class = "text-center">
+            Crystal Collector
+        </h1>
+    </div>
+</div>    
+<div class = "row">
+    <div class = "col-md-12">
+        <div class = "card mb-4">
+            <div class="card-header">
+                Instructions
+            </div>
+            <div class = "card-body">
+                <p>
+                    You will be given a random number at the start of the game. There are four crystals below.
+                    By clicking on a crystal you will add a specific amount of points to your total score.
+                    You win the game by matching your total score to random number, you lose the game if
+                    your total score goes above the random number. The value of each crystal is hidden from
+                    you until you click on it. Each time when the game starts, the game will change the values
+                    of each crystal 
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class = "row">
+    <div class = "col-md-3">
+        <div class = "card mb-4">
+            <div class = "card-header">
+                Target Score
+            </div>
+            <div class = "card-body">
+                <h3 class = "text-center" id = "targetScore">
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class = "col-md-3">
+        <div class = "card mb-4">
+            <div class = "card-header">
+                Score
+            </div>
+            <div class = "card-body">
+                <h3 class = "text-center" id = "yourScore">
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class = "col-md-6">
+        <div class = "card mb-4">
+           <div class = "card-header">
+               Select a Crystal
+           </div> 
+           <div class = "card-body text-center">
+            <img src="https://m.media-amazon.com/images/I/81C9B6wLlHL._SR500,500_.jpg" id = "orange">
+            <img src="https://www.dhresource.com/0x0/f2/albu/g7/M00/56/77/rBVaSlq133WADiodAAQjDLOnIqU679.jpg" id = "green">
+            <img src="https://png.pngtree.com/png-vector/20191115/ourlarge/pngtree-blue-crystals-icon-cartoon-style-png-image_1989082.jpg" id = "blue">
+            <img src="https://p1.hiclipart.com/preview/542/488/1005/64-gemstones-red-crystal-illustration.jpg" id = "red">
+
+           </div>
+        </div>
+    </div>
+</div>
+<div class = "row">
+    <div class = "col-md-6">
+        <div class = "card mb-4">
+            <div class = "card-header">
+                Wins
+            </div>
+            <div class = "card-body">
+                <h3 class = "text-center" id = "winCount">
+                    0
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class = "col-md-6">
+        <div class = "card mb-4">
+            <div class = "card-header">
+                Losses
+            </div>
+            <div class = "card-body">
+                <h3 class = "text-center" id = "lossCount">
+                    0
+                </h3>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src = "game.js"></script>
+  
+</body>
+</html>
